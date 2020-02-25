@@ -6,7 +6,7 @@
 /*   By: ystepane <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/19 14:48:08 by ystepane          #+#    #+#             */
-/*   Updated: 2020/02/19 14:48:42 by ystepane         ###   ########.fr       */
+/*   Updated: 2020/02/25 14:02:04 by ystepane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	size_t				i;
 	unsigned char		*ptr;
 	const unsigned char	*ptr2;
-	
+
 	if (!src || !len)
 		return (dst);
 	ptr = (unsigned char*)dst;

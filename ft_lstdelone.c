@@ -6,7 +6,7 @@
 /*   By: ystepane <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/22 16:49:45 by ystepane          #+#    #+#             */
-/*   Updated: 2020/02/22 17:37:11 by ystepane         ###   ########.fr       */
+/*   Updated: 2020/02/25 14:28:42 by ystepane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,7 @@
 
 void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t))
 {
-	if (alst)
-	{
 		del((*alst)->content, (*alst)->content_size);
 		free(*alst);
 		*alst = NULL;
-	}
 }

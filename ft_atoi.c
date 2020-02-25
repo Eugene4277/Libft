@@ -6,15 +6,15 @@
 /*   By: ystepane <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/18 21:57:37 by ystepane          #+#    #+#             */
-/*   Updated: 2020/02/19 18:48:19 by ystepane         ###   ########.fr       */
+/*   Updated: 2020/02/25 14:04:30 by ystepane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int		ft_atoi(const char *str)
 {
-	long long num;
-	int digit;
-	long long sign;
+	long long	num;
+	int			digit;
+	long long	sign;
 
 	num = 0;
 	sign = 1;

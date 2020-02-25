@@ -6,7 +6,7 @@
 /*   By: ystepane <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/21 12:06:04 by ystepane          #+#    #+#             */
-/*   Updated: 2020/02/24 17:05:43 by ystepane         ###   ########.fr       */
+/*   Updated: 2020/02/25 14:04:08 by ystepane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ char		*ft_itoa(int n)
 	int		len;
 	char	*int_str;
 	long	nb;
-	
+
 	nb = n;
 	len = digit_count(nb);
 	if (!(int_str = (char*)ft_memalloc(sizeof(char) * (len + 1))))
